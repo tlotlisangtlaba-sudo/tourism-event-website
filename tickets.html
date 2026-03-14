@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Tickets/Registration</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<!--Header section-->
+<header>
+<h1>Tickets and Registration</h1>
+</header>
+
+<!--Navigation section-->
+
+<nav>
+	<a href="index.html">Home Page</a></li>
+	<a href="about.html">About the Event</a></li>
+	<a href="programme.html">Programme/Schedule</a></li>
+	<a href="tickets.html">Tickets/Registration</li>
+	<a href="contact.html">Contact and Social Media</a>
+</nav>
+
+<div class="container">
+
+<h2>Ticket Prices</h2>
+
+<ul>
+	<li>General Entry: M120</li>
+	<li>Students: M80</li>
+	<li>VIP Adventure Pass: M300</li>
+</ul>
+
+<h2>Register for the Event</h2>
+
+<!--Form section-->
+
+<form class="registration-form">
+	
+	<label for="name">Full Name</label><input type="text" id="name" name="name" placeholder="Enter your full name" required>
+	
+	<label for="email">Email Address</label><input type="email" id="email" name="email" placeholder="Enter your email" required>
+	
+	<label for="phone">Phone Number</label><input type="tel" id="phone" name="phone" placeholder="+266..." required>
+	
+	<label for="tickets">Number of Tickets</label><input type="number" id="tickets" name="tickets" min="1" max="10">
+	
+	<label for="ticket type">Ticket Type</label>
+	<select id="ticket type">
+		<option>General Entry (M120)</option>
+		<option>Student Ticket (M80)</option>
+		<option>VIP Adventure Pass (M300)</option>
+	</select>
+	
+	<label for="date">Preferred Event Date</label><input type="date" id="date">
+
+	<label>Select Activities</label>
+	<input type="checkbox">Pony Treking<br>
+	<input type="checkbox">Mountain Hiking<br>
+	<input type="checkbox"> Cultural Dance Show<br>
+	<input type="checkbox">Food Tasting<br>
+	
+	<label for="message">Special Requests</label><textarea id="message" rows="4" placeholder="Any special requests?"></textarea>
+
+	<br><br>
+
+	<input type="submit" value="Register Now">
+</form>
+
+
+
+
+</div>
+<footer>
+	<p>Book Early to Secure your Spot</p>
+</footer>
+
+</body>
+</html>
